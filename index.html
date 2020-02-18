@@ -12,33 +12,51 @@
     <script src="/__/firebase/7.8.2/firebase-app.js"></script>
     <script src="/__/firebase/7.8.2/firebase-analytics.js"></script>
     <script src="/__/firebase/init.js"></script>
-    <form>
-  
-        <div class="segment">
-          <h1>Sign up</h1>
-        </div>
-        
-        <label>
-          <input type="text" placeholder="Email Address"/>
-        </label>
-        <label>
-          <input type="password" placeholder="Password"/>
-        </label>
-        <button class="red" type="button"><i class="icon ion-md-lock"></i> Log in</button>
-        
-        <!-- <div class="segment">
-          <button class="unit" type="button"><i class="icon ion-md-arrow-back"></i></button>
-          <button class="unit" type="button"><i class="icon ion-md-bookmark"></i></button>
-          <button class="unit" type="button"><i class="icon ion-md-settings"></i></button>
-        </div> -->
-        
-        <!-- <div class="input-group">
-          <label>Email Address</label>
-            <input type="text" placeholder="Email Address"/>
-          
-          <button class="unit" type="button"><i class="icon ion-md-search"></i></button>
-        </div> -->
-        
-      </form>
+    
+    
+  <div class="login-box">
+    <div class="lb-header">
+      <a href="#" class="active" id="login-box-link">Login</a>
+      <a href="#" id="signup-box-link">Sign Up</a>
+    </div>
+    <div class="social-login">
+      <a href="#">
+        <i class="fa fa-facebook fa-lg"></i>
+        Login in with facebook
+      </a>
+      <a href="#">
+        <i class="fa fa-google-plus fa-lg"></i>
+        log in with Google
+      </a>
+    </div>
+    <form class="email-login">
+      <div class="u-form-group">
+        <input type="email" placeholder="Email"/>
+      </div>
+      <div class="u-form-group">
+        <input type="password" placeholder="Password"/>
+      </div>
+      <div class="u-form-group">
+        <button>Log in</button>
+      </div>
+      <div class="u-form-group">
+        <a href="#" class="forgot-password">Forgot password?</a>
+      </div>
+    </form>
+    <form class="email-signup">
+      <div class="u-form-group">
+        <input type="email" placeholder="Email"/>
+      </div>
+      <div class="u-form-group">
+        <input type="password" placeholder="Password"/>
+      </div>
+      <div class="u-form-group">
+        <input type="password" placeholder="Confirm Password"/>
+      </div>
+      <div class="u-form-group">
+        <button>Sign Up</button>
+      </div>
+    </form>
+  </div>
 </body> 
 </html>
