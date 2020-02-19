@@ -1,3 +1,32 @@
+*{
+  background-color: #DA042A;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  
+}
+body {
+  margin: 0;
+}
+#container {
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  //border: green 2px solid;
+  padding: 10px;
+  margin: 1px 1px 1px 1px;
+  .primero  {
+    //border: greenyellow solid 2px;
+    #usuariocont, #contracont {
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    margin: 2px;
+    }
+  }
+}
 #icono {
   width: 100px;
   height: auto;
